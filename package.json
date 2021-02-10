@@ -13,11 +13,13 @@
     "directories": {
       "output": "packaged"
     },
-    "publish": [{
-      "provider": "github",
-      "owner": "geraldoramos",
-      "repo": "nikola"
-    }],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "geraldoramos",
+        "repo": "nikola"
+      }
+    ],
     "appId": "com.github.geraldoramos.nikola",
     "mac": {
       "category": "public.app-category.utilities",
@@ -82,7 +84,7 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.6.0"
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "antd": "^3.19.2",
